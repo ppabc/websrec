@@ -1,0 +1,14 @@
+{
+    "service": {
+        "name": "app",
+        "tags": ["app","php5"],
+        "port": 80,
+        "check": {
+            "id": "app",
+            "name": "app on port 80",
+            "http": "http://127.0.0.1:73/ping",
+            "interval": "10s",
+            "timeout": "1s"
+        }
+    }
+}
