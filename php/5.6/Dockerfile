@@ -13,6 +13,8 @@ LABEL maintainer="aqzt.com (ppabc@qq.com)"
           mariadb-client \
           nginx \
           openssl \
+          php5 \
+          php5-common \
           php5-apcu \
           php5-bcmath \
           php5-bz2 \
@@ -34,7 +36,6 @@ LABEL maintainer="aqzt.com (ppabc@qq.com)"
           php5-imap \
           php5-json \
           php5-ldap \
-          php5-mailparse \
           php5-mcrypt \
           php5-mysqli \
           php5-odbc \
