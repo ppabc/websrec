@@ -1,0 +1,5 @@
+{
+    "data_dir": "/data/consul",
+    "enable_script_checks": true,
+    "disable_update_check": true
+}

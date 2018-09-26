@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv sh
+
+touch /var/log/check_mysql.log
+chown mysql:mysql /var/log/check_mysql.log
+chmod 777 /var/log/check_mysql.log
+mkdir -p /tmp/mysql
+chown -R mysql /tmp/mysql
+
+mkdir -p /tmp/state
+touch /tmp/state/11-mysql

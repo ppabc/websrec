@@ -1,0 +1,13 @@
+{
+    "service": {
+        "name": "mariadb",
+        "tags": ["mariadb"],
+        "port": 3306,
+        "check": {
+            "id": "mariadb",
+            "name": "mariadb",
+            "args":["sh","-c","mariadb-check"],
+            "interval": "10s"
+        }
+    }
+}
